@@ -1,0 +1,149 @@
+@import url(
+	'https://fonts.googleapis.com/css?family=Poppins|Roboto|Quicksand|Raleway|Ubuntu&display=swap'
+	);
+
+*{
+	font-family: Raleway, Ubuntu, sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	font-variant: small-caps;
+
+}
+
+#header, #footer, nav{
+	padding:1rem;
+	background-color:rgba(50, 50, 150, .5);
+}
+
+#header{
+	color:#ccc;
+	background: url(../media/bg-space.png);
+	background-position: center top; /*X Y*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+	margin: 5px auto;/* top right bottom left */
+	width:300px;
+}
+
+.header h1, .header p{
+	margin:0;
+}
+
+.header p{
+	letter-spacing: .5rem;
+	padding-left: 30%;
+}
+
+#menu{
+	display:none;
+}
+
+article{
+	overflow: hidden;
+	width:95%;
+	margin:auto;
+}
+
+section{
+	width:320px;
+	padding:1rem;
+	border-radius: 1rem;
+	border:1px solid #34349c;
+	margin:15px auto;
+	/*Top Right Bottom Left*/
+}
+
+#footer{
+	color:#ccc; /*RGB 0-9A-F*/
+	background: url(../media/bg-space.png);
+	background-position: center bottom;
+	background-size: cover;
+	opacity: .9;
+	
+}
+
+.social{
+	margin:5px auto;
+	width:420px;
+	height:70px;
+	border-radius: 10px;
+	text-align: center;
+	padding:5px;
+	line-height: 60px;
+}
+
+.social a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.social img{
+	height:30px;
+	background-color: lightgrey;
+	border-radius: 5px;
+	padding:7.5px; 
+	margin:0 10px;
+	opacity: .5;
+}
+
+.social img:hover{
+	height: 60px;
+	background-color: white;
+	opacity: 1;
+}
+
+.flexbox{
+	width:80%;
+	display: flex;
+	padding:0;
+	flex-direction:row-reverse;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+}
+
+.flexbox div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align:center;
+	border: 1px solid darkslateblue;
+	background-color: slateblue;
+}
+
+.align{
+	align-items: center;
+	height: 250px;
+}
+
+.flexbox a{
+	display: block;
+	width:50px;
+	height:50px;
+	color:white;
+	text-decoration: none;
+	background-color: darkslateblue;
+	line-height: 50px;
+	text-align: center;
+}
+
+.flexbox a:hover{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
